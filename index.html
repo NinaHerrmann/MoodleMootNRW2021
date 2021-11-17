@@ -29,24 +29,24 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<img alt="WWU-Logo" style="width: 25%" src="figures/wwu-dark2.png"></img>
+					<img alt="WWU-Logo" style="width: 25%" src="figures/wwu-dark_transparent.png"></img>
 
 					<a href="https://github.com/learnweb/moodle-tool_lifecycle/">
 						<h3><code>tool_lifecycle</code></h3>
 					</a>
 					<p>
-					Erste Schritte zur Deprovisionierung - <span class="fragment highlight-green">Kurse</span><br><small>Nina Herrmann</small>
+					Erste Schritte zur Deprovisionierung - <span style="color: #578014;font-weight: bold;">Kurse</span><br><small>Nina Herrmann</small>
 					</p>
 				</section>
 
 				<section>
 					<section>
-					<p><h2>Motivation?<h2>
+					<p><h1>Motivation?<h1>
 					</p>
 				</section>
 					<section>
 						<p>
-							<img alt="Speicher ausgelastet Meme" src="figures/harold90.jpg"></img>
+							<img alt="Speicher ausgelastet Meme" src="figures/harold_nina.jpg"></img>
 						</p>
 					</section>
 					<section>
@@ -55,13 +55,13 @@
 						</p>
 					</section>
 					<section>
-						<ol>
-							<li>Speicher entlasten</li>
+						<ul>
+							<li class="space">Speicher entlasten</li>
 							<li>Ordentlicheres System</li>
 							<li>Schnellere Kurssuche</li>
 							<li>Seitenladezeiten</li>
 							<li>...</li>
-						</ol>
+						</ul>
 					</section>
 				</section>
 
@@ -85,144 +85,177 @@
 						<h3>Ablauf - WWU</h3>
   <div class="Timeline">
     <svg height="20" width="1">
-    <line x1="1" y1="0" x2="1" y2="20" style="stroke:#004165;stroke-width:2" />
+    <line x1="1" y1="0" x2="1" y2="20" style="stroke:#578014;stroke-width:2" />
 
   </svg>
     <svg height="5" width="50">
-    <line x1="0" y1="0" x2="50" y2="0" style="stroke:#004165;stroke-width:5" />
+    <line x1="0" y1="0" x2="50" y2="0" style="stroke:#578014;stroke-width:5" />
     Sorry, your browser does not support inline SVG.
   </svg>
 
     <div class="event1">
 
-      <div class="event1Bubble"  style="width: 190px;">
+      <div class="event1Bubble"  style="width: 180px;">
         <div class="eventTime">
           <div class="DayDigit"></div>
-          <div class="Day">
-             Auslöser
+          <div class="Day" style="color:#578014">
+             <em>Auslöser</em>
             <div class="MonthYear"></div>
           </div>
         </div>
         <div class="eventTitle">Kurs älter als 3.75 Jahre</div>
       </div>
       <svg height="20" width="20">
-         <circle cx="10" cy="11" r="5" fill="#004165" />
+				<circle cx="10" cy="5" r="5" fill="#578014" />
        </svg>
       <div class="time"></div>
     </div>
 
-		    <svg height="5" width="100">
-		    <line x1="0" y1="0" x2="100" y2="0" style="stroke:#004165;stroke-width:5" />
+		    <svg height="5" width="20">
+		    <line x1="0" y1="0" x2="20" y2="0" style="stroke:#578014;stroke-width:5" />
 		    Sorry, your browser does not support inline SVG.
 		    </svg>
-		  <div class="event2">
+				<div class="event2">
+					<div class="event2Bubble" style="width: 180px;">
+						<div class="eventTime">
+							<div class="DayDigit"></div>
+							<div class="Day" style="color:#578014">
+								 <em>Mail - Lehrende</em>
+								<div class="MonthYear"></div>
+							</div>
+						</div>
+						<div class="eventTitle">Verweis auf Löschung</div>
+					</div>
+					<div class="time2"></div>
+				</div>
+			<svg height="20" width="20">
 
-		    <div class="event2Bubble" style="width: 140px;">
-		      <div class="eventTime">
-		        <div class="DayDigit"></div>
-		        <div class="Day">
-		           Erste E-Mail
-		          <div class="MonthYear"></div>
-		        </div>
-		      </div>
-		      <div class="eventTitle">Verweis auf Opt-out</div>
-		    </div>
-		    <div class="time2"></div>
-		  </div><svg height="20" width="20">
-
-		    <circle cx="10" cy="11" r="5" fill="#004165" />
+		    <circle cx="10" cy="11" r="5" fill="#578014" />
 		    </svg>
 
 
-    <svg height="5" width="120">
-    <line x1="0" y1="0" x2="250" y2="0" style="stroke:#004165;stroke-width:5" />
+    <svg height="5" width="180">
+    <line x1="0" y1="0" x2="180" y2="0" style="stroke:#578014;stroke-width:5" />
     Sorry, your browser does not support inline SVG.
     </svg>
-    <div class="event3 futureGray " >
-      <div class="event1Bubble futureOpacity" style="height: 80px;">
+    <div class="event3 " >
+      <div class="event1Bubble" style="width:180px">
         <div class="eventTime">
-          <div class="DayDigit"></div>
-          <div class="Day">
-             Lehrende
+          <div class=Day  style="color:#578014">
+             <em>Nutzer - <span style="font-size:14px;color: #004165;">2 Monate</span></em>
+
             <div class="MonthYear"></div>
+
           </div>
         </div>
         <div class="eventTitle">Opt-out aus Löschung</div>
       </div>
-        <svg height="20" width="20">
-      <circle cx="10" cy="11" r="5" fill="rgba(162, 164, 163, 0.37)" />
+        <svg height="18" width="20">
+					<line x1="0" y1="0" x2="20" y2="0" style="stroke:#578014;stroke-width:5" />
       </svg>
     </div>
 
-		<svg height="5" width="100">
-		<line x1="0" y1="0" x2="100" y2="0" style="stroke:#004165;stroke-width:5" />
+		<svg height="5" width="180">
+		<line x1="0" y1="0" x2="180" y2="0" style="stroke:#578014;stroke-width:5" />
 		Sorry, your browser does not support inline SVG.
 		</svg>
-	<div class="event2">
 
-		<div class="event2Bubble" style="width: 250px;">
+	<div class="event2">
+		<div class="event2Bubble" style="width: 120px;">
 			<div class="eventTime">
 				<div class="DayDigit"></div>
-				<div class="Day">
-					 Zweite E-Mail
+				<div class="Day" style="color:#578014">
+					 <em>Mail - Lehrende</em>
 					<div class="MonthYear"></div>
 				</div>
 			</div>
-			<div class="eventTitle">Verweis auf Opt-out + Kurse werden unsichtbar geschaltet</div>
+			<div class="eventTitle">Erinnerung</div>
 		</div>
 		<div class="time2"></div>
-	</div><svg height="20" width="20">
-
-		<circle cx="10" cy="11" r="5" fill="#004165" />
-		</svg>
-
-
-    <svg height="5" width="100">
-    <line x1="0" y1="0" x2="100" y2="0" style="stroke:#004165;stroke-width:5" />
-    Sorry, your browser does not support inline SVG.
-    </svg>
-
+	</div>
+	<svg height="20" width="20">
+		<circle cx="10" cy="11" r="5" fill="#578014" />
+	</svg>
 
 		<div class="event1">
 
-			<div class="event1Bubble"  style="width: 190px;">
+			<div class="event1Bubble"  style="width: 260px;">
 				<div class="eventTime">
 					<div class="DayDigit"></div>
-					<div class="Day">
-						 Vorsichtmaßnahme
+					<div class="Day" style="color:#578014">
+						 <em>Vorsichtmaßnahme</em>
+						<div class="MonthYear"></div>
+					</div>
+				</div>
+				<div class="eventTitle">Kurse werden unsichtbar geschaltet</div>
+			</div>
+			<svg height="20" width="20">
+				<circle cx="8" cy="5" r="5" fill="#578014" />
+	    Sorry, your browser does not support inline SVG.
+	    </svg>
+			<div class="time"></div>
+		</div>
+    <svg height="5" width="160">
+    <line x1="0" y1="0" x2="160" y2="0" style="stroke:#578014;stroke-width:5" />
+    Sorry, your browser does not support inline SVG.
+    </svg>
+		<div class="event2">
+			<div class="event2Bubble" style="width: 170px;">
+				<div class="eventTime">
+					<div class="DayDigit"></div>
+					<div class="Day" style="color:#578014">
+						<em>Nutzer - <span style="font-size:14px;color: #004165;">1 Monat</span></em>
+						<div class="MonthYear"></div>
+					</div>
+				</div>
+				<div class="eventTitle">Opt-out aus Löschung</div>
+			</div>
+			<div class="time2"></div>
+		</div>
+		<svg height="5" width="150">
+		<line x1="0" y1="0" x2="150" y2="0" style="stroke:#578014;stroke-width:5" />
+		Sorry, your browser does not support inline SVG.
+		</svg>
+
+		<div class="event1">
+
+			<div class="event1Bubble" style="width: 170px;">
+				<div class="eventTime">
+					<div class="DayDigit"></div>
+					<div class="Day" style="color:#578014">
+						 <em>Vorsichtmaßnahme</em>
 						<div class="MonthYear"></div>
 					</div>
 				</div>
 				<div class="eventTitle">Erstellen von Backups</div>
 			</div>
-			<svg height="20" width="20">
-				 <circle cx="10" cy="11" r="5" fill="#004165" />
-			 </svg>
 			<div class="time"></div>
+			<svg height="20" width="20">
+					<circle cx="10" cy="5" r="5" fill="#578014" />
+				 </svg>
 		</div>
 
-      <svg height="5" width="200">
-      <line x1="0" y1="0" x2="200" y2="0" style="stroke:#004165;stroke-width:5" />
+
+      <svg height="5" width="80">
+      <line x1="0" y1="0" x2="80" y2="0" style="stroke:#578014;stroke-width:5" />
       Sorry, your browser does not support inline SVG.
     </svg>
 
-
-      <div class="event2">
-
-        <div class="event2Bubble" style="width: 100px;">
-          <div class="eventTime">
-            <div class="DayDigit"></div>
-            <div class="Day">
-
-              <div class="MonthYear"></div>
-            </div>
-          </div>
-          <div class="eventTitle">Kurse löschen</div>
-        </div>
-        <div class="event2Author"></div>
-        <div class="time2"></div>
-      </div><svg height="20" width="20">
-    <circle cx="10" cy="11" r="5" fill="#004165" />
+		<div class="event2">
+			<div class="event2Bubble" style="width: 170px;">
+				<div class="eventTime">
+					<div class="DayDigit"></div>
+					<div class="Day" style="color:#578014">
+						 <em>ENDLICH!!!!!!!!!!</em>
+						<div class="MonthYear"></div>
+					</div>
+				</div>
+				<div class="eventTitle">Löschen von Kursen</div>
+			</div>
+			<div class="time2"></div>
+		</div>
+			<svg height="20" width="20">
+    <circle cx="10" cy="11" r="5" fill="#578014" />
     </svg>
 		<div class="now">
 		 NOW
@@ -234,471 +267,160 @@
       <line x1="1" y1="0" x2="1" y2="20" style="stroke:rgba(162, 164, 163, 0.37);stroke-width:2" />
     </svg>
       </div>
-					</section>
-					<section> <h2>Auslöser</h2>
-						<ul>
-						<li>Datum zu dem Prozess startet</li>
-						<ul>
-							<li>z. B. Jedes halbe Jahr werden Kurse gelöscht</li>
-						</ul>
-						<li>Kurseigenschaften</li>
-						<ul>
-							<li>Kurse ohne Lehrende</li>
-							<li>Kurse einer bestimmten Kategorie</li>
-							<li>Kurs Startdatum ist x Tage her</li>
-						</ul>
-					</ul>
-					</section>
-					<section>
-						<h2>Schritte</h2>
-							<ul>
-							<li>E-Mail</li>
-							<ul>
-								<li>Lehrende -> Ihr Kurs wird gelöscht</li>
-								<li>Studierende -> Ihr Kurs wird gelöscht?</li>
-							</ul>
-							<li>Admin Bestätigung</li>
-							<li>Kurs unsichtbar schalten</li>
-							<li>Backups</li>
-							<li>...</li>
-						</ul>
-					</section>
-				</section>
+		</section>
+	</section>
 
-
+<section>
 <section data-background="figures/over.gif">
 	<h2>And now?</h2>
 </section>
 
-<section data-background="figures/github.png" >
-	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-		<h2>Admin tool</h2>
-		<p>Wir haben unser bestes gegeben ein Grundgerüst zu bauen</p>
-	</div>
+<section>
+	<img alt="Witz Overengineering" width=80% src="figures/the_general_problem.png"></img>
+	<p>https://xkcd.com/974/</p>
+</section>
+<section>
+	<img alt="Witz Overengineering" width=80% src="figures/start.png"></img>
+	<p>Tobias Reischmann - 2017</p>
 </section>
 
+<section data-background="figures/github_15.png" >
+	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+		<h2>Admin tool lifecycle</h2>
+		<p>Wir haben unser Bestes gegeben ein Grundgerüst zu bauen (<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>)</p>
+	</div>
+</section>
+</section>
+<section>
+	<section data-background="figures/code.png">
+		<h1>Software?</h1>
+		<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>
+	</section>
+</section>
+<section>
+	<section>
+		<h1>Sub-plugins</h1>
+		<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki/Documentation-for-Developers"> Dokumentation</a>
+	</section>
+	<section>
+		<code>lifecycle<b style="color:#578014">trigger</b></code> &#x2192; Wann soll ein Kurs mit dem Prozess bearbeitet werden?<br>
+		<a href="https://github.com/learnweb/moodle-lifecycletrigger_dummy"> Repository für leeren Trigger</a><br>
+		<code>lifecycle<b style="color:#578014">step</b></code> &#x2192; Was soll in dem Prozess passieren?<br>
+		<a href="https://github.com/learnweb/moodle-lifecyclestep_dummy"> Repository für leeren Step</a><br>
+	</section>
+	<section>
+		<h3><code style="color:#578014">Trigger</code>- in der Standardinstallation</h3>
+		<ul>
+			<li> Kurskategorie </li>
+			<li> Bestimmtes Datum </li>
+			<li> Startzeitpunkt des Kurses <br>ist <em>xxx</em> Tage/Monate/... her </li>
+			<li> ... </li>
+		</ul>
+
+	</section>
+	<section>
+		<h3><code style="color:#578014">Steps</code> - in der Standardinstallation</h3>
+		<ul>
+			<li> Backup erstellen </li>
+			<li> E-Mail an Lehrende</li>
+			<li> Kurs löschen </li>
+			<li> Kurs unsichtbar schalten </li>
+		</ul>
+	</section>
+</section>
 
 <section>
 	<section>
-	<img alt="Beispiel eines Workflows" width=80% src="figures/beispiel1workflow.png"></img>
+		<h1>Nutzerinterface</h1>
+	</section>
+	<section >
+		<span>Komplexe Probleme haben komplexe User Interfaces...</span>
+	</section>
+
+<section>
+<img alt="Beispiel Kurssicherungen" src="figures/settings_whole.png"></img>
 </section>
 <section>
 <img alt="Beispiel Workflows" src="figures/beispielworkflows.png"></img>
 </section>
 <section>
-<img alt="Beispiel Kurssicherungen" src="figures/kurssicherungen2.png"></img>
+<img alt="Beispiel eines Workflows" width=80% src="figures/beispiel1workflow.png"></img>
 </section>
 <section>
-<img alt="Beispiel Kurssicherungen" src="figures/settings.png"></img>
+<img alt="Beispiel Kurssicherungen" src="figures/kurssicherungen2.png"></img>
 </section>
 <section>
 <img alt="Beispiel Kurssicherungen" src="figures/activeprocesses.png"></img>
 </section>
 </section>
+<section>
+	<section>
+		<h1>Beispiel - WWU</h1>
+	</section>
+	<section >
+		<table>
+			<thead>
+				<tr>
+					<th>Kurse</th>
+					<td>~55.000</td>
+					<td><span style="color:#578014">~-60%</span></td>
+					<td>~22.000</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Filesystem</th>
+					<td>12,9 GB</td>
+					<td><span style="color:#ff8800">~-10%</span></td>
+					<td>11,6 GB </td>
+				</tr>
+				<tr>
+					<th>Backups</th>
+					<td>14T</td>
+					<td><span style="color:#578014">~-40%</span%</td>
+					<td>6,1T (+2,4T)</td>
+				</tr>
+				<tr>
+				<th>Datenbankdump</th>
+				<td>11,9 GB</td>
+				<td><span style="color:#ff0000">~-5%</span></td>
+				<td>11,3 GB</td>
+			</tr>
+			</tbody>
+		</table>
+	</section>
+<section>
+	<h3>Anmerkungen eines Admins</h3>
+	<ul>
+		<li>Einsparnis hängt von eurem Workflow ab</li>
+		<li>Early Adoptors -> Kein Release Candidate</li>
+		<li>Support: </li>
+			<ul>
+				<li>Anleitungen für Grades, Kursbackups</li>
+			  <li>Wir sind nicht ihr lokaler Cloud Dienst!</li>
+		</ul>
+	</ul>
+</section>
+</section>
+<section>
+	<section>
+	<h1>Outlook</h1>
+</section>
+	<section>
+		<ul>
+			<li>Studierende benachrichtigen</li>
+			<li>Batch Processing - Admin Steps</li>
+			<li>Error Overview</li>
+			<li>Nutzerlöschung?</li>
+		</section>
+</section>
 				<!-- Example of nested vertical slides  				<section data-background-iframe="https://hakim.se" data-background-interactive>
  -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
-						</a>
-					</section>
-				</section>
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="https://slides.com" target="_blank">https://slides.com</a>.
-					</p>
-				</section>
-
-				<section data-visibility="hidden">
-					<h2>Hidden Slides</h2>
-					<p>
-						This slide is visible in the source, but hidden when the presentation is viewed. You can show all hidden slides by setting the `showHiddenSlides` config option to `true`.
-					</p>
-				</section>
-
-				<section data-auto-animate>
-					<h2 data-id="code-title">Pretty Code</h2>
-					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    ...
-						  );
-						}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
-				</section>
-
-				<section data-auto-animate>
-					<h2 data-id="code-title">With animations</h2>
-					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-
-						function SecondExample() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-					</script></code></pre>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down the <strong>alt</strong> key (<strong>ctrl</strong> in Linux) and click on any element to zoom towards it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Click again to zoom back out.
-					</p>
-					<p>
-						(NOTE: Use ctrl + click in Linux.)
-					</p>
-				</section>
-
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<h2>Auto-Animate</h2>
-					<p>Automatically animate matching elements across slides with <a href="https://revealjs.com/auto-animate/">Auto-Animate</a>.</p>
-					<div class="r-hstack justify-center">
-						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-					</div>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-hstack justify-center">
-						<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-stack">
-						<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
-						<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
-						<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [docs](https://revealjs.com/markdown/).
-
-						```html []
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [docs](https://revealjs.com/markdown/).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<p>Add the <code>r-fit-text</code> class to auto-size text</p>
-					<h2 class="r-fit-text">FIT TEXT</h2>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p>
-							<span style="display: inline-block;" class="fragment fade-right">fade-right, </span>
-							<span style="display: inline-block;" class="fragment fade-up">up, </span>
-							<span style="display: inline-block;" class="fragment fade-down">down, </span>
-							<span style="display: inline-block;" class="fragment fade-left">left</span>
-						</p>
-						<p class="fragment fade-in-then-out">fade-in-then-out</p>
-						<p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
-						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://static.slid.es/reveal/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://static.slid.es/reveal/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://static.slid.es/site/homepage/v1/homepage-video-editor.mp4" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section data-background-iframe="https://hakim.se" data-background-interactive>
-					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-						<h2>Iframe Backgrounds</h2>
-						<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
-					</div>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://revealjs.com/speaker-view/">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://revealjs.com/pdf-export/">exported to PDF</a>, here's an example:</p>
-					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.on( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://revealjs.com/api/">Extensive JavaScript API</a></li>
-						<li><a href="https://revealjs.com/auto-slide/">Auto-progression</a></li>
-						<li><a href="https://revealjs.com/backgrounds/#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://revealjs.com/keyboard/">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="https://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
-
+ <section>
+	 <h3>Vielen Dank für eure Aufmerksamkeit, Fragen? </h3>
+<a href="mailto:nina.herrmann@uni-muenster.de">Sonst gerne als E-Mail</a> </section>
 			</div>
-
 		</div>
 
 		<script src="dist/reveal.js"></script>
