@@ -461,9 +461,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .DayDigit {
-  font-size: 27px;
+  font-size: 15px;
   margin-left: 10px;
-  color: #a71930;
+  color: #004165;
 }
 
 .Day {

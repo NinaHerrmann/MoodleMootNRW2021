@@ -177,7 +177,7 @@ html.reveal-full-page {
 	.reveal .slides section .fragment.highlight-red.visible {
 		color: #ff2c2d
 	}
-	.reveal .slides section .fragment.highlight-green.visible {
+	.reveal .slides section .highlight-green{
 		color: #578014;
 		font-weight: bold;
 	}
@@ -1819,4 +1819,3 @@ $notesWidthPercent: 25%;
 
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
-
