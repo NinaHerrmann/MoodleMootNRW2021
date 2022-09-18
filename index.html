@@ -6,7 +6,7 @@
 
 		<title>tool_lifecycle</title>
 
-		<meta name="description" content="Erste Schritte zur Deprovisionierung - Kurse">
+		<meta name="description" content="Finally! Deleting Courses Automatically">
 		<meta name="author" content="Nina Herrmann">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,7 +35,7 @@
 						<h3><code>tool_lifecycle</code></h3>
 					</a>
 					<p>
-					Erste Schritte zur Deprovisionierung - <span style="color: #578014;font-weight: bold;">Kurse</span><br><small>Nina Herrmann</small>
+					 <span style="color: #f48600;font-weight: bold;">Finally! Deleting Courses Automatically</span><br><small>Nina Herrmann University of Münster</small>
 					</p>
 				</section>
 
@@ -49,40 +49,51 @@
 							<img alt="Speicher ausgelastet Meme" src="figures/harold_nina.jpg"></img>
 						</p>
 					</section>
-					<section>
-						<p>
-							<img alt="Speicher ausgelastet Meme" style="width: 40%" src="figures/speichershort.jpeg"></img>
-						</p>
-					</section>
+
 					<section>
 						<ul>
-							<li class="space">Speicher entlasten</li>
-							<li>Ordentlicheres System</li>
-							<li>Schnellere Kurssuche</li>
-							<li>Seitenladezeiten</li>
-							<li>...</li>
+							<span style="color: #f48600;font-weight: bold;">
+							<li class="space">Free Memory Space</li>
+							<li>"Cleaner" System</li>
+							<li>Faster Page loading times</li>
+							<li>...</li></span>
 						</ul>
 					</section>
 				</section>
-
+				<section data-background="figures/over.gif">
+					<h2>And now?</h2>
+				</section>
+				<section data-background="figures/github_15.png" >
+					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Admin tool lifecycle</h2>
+						<p>We tried our best to make a generelizable tool... (<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>)</p>
+					</div>
+				</section>
+				</section>
+				<section>
+					<section data-background="figures/code.png">
+						<h1>Software?</h1>
+						<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>
+					</section>
+				</section>
 				<!-- Theoretischer Ansatz -->
 
 				<section>
 					<section>
-					<p><h2>Wo fangen wir an?</h2>
+					<p><h2>Expectation vs Reality</h2>
 					</p>
 					<blockquote cite="Nina Herrmann">
-					<img alt="Nina Herrmann" style="width: 10%; float:left; margin: 3%" src="figures/profile.png"></img> &ldquo;Lass und alles löschen was älter als ein Jahr ist&rdquo;
+					<img alt="Nina Herrmann" style="width: 10%; float:left; margin: 3%" src="figures/profile.png"></img> &ldquo;Let's delete everything older than 1 year!&rdquo;
 					</blockquote>
 					<blockquote>
-					 	 	<span style="float:left; margin: 3%;font-style: normal;">&#128104;&#8205;&#127979; </span> Vorlagen, Bewertungen, 	<span style="font-style: normal;">&#128561;</span> ????
+					 	 	<span style="float:left; margin: 3%;font-style: normal;">&#128104;&#8205;&#127979; </span> Grades, Templates 	<span style="font-style: normal;">&#128561;</span> ????
 					</blockquote>
 					<blockquote>
-					<img alt="Markus Marek" style="width: 10%; float:left; margin: 3%" src="figures/markussmall.jpeg"></img> &ldquo;Vielleicht gehen wir das etwas langsamer an&rdquo;
+					<img alt="Markus Marek" style="width: 10%; float:left; margin: 3%" src="figures/markussmall.jpeg"></img> &ldquo;Older than 4 years.&rdquo;
 					</blockquote>
 				</section>
 					<section>
-						<h3>Ablauf - WWU</h3>
+						<h3>Example - WWU</h3>
   <div class="Timeline">
     <svg height="20" width="1">
     <line x1="1" y1="0" x2="1" y2="20" style="stroke:#578014;stroke-width:2" />
@@ -99,11 +110,11 @@
         <div class="eventTime">
           <div class="DayDigit"></div>
           <div class="Day" style="color:#578014">
-             <em>Auslöser</em>
+             <em>Trigger</em>
             <div class="MonthYear"></div>
           </div>
         </div>
-        <div class="eventTitle">Kurs älter als 3.75 Jahre</div>
+        <div class="eventTitle">Course older than 3.75 Years</div>
       </div>
       <svg height="20" width="20">
 				<circle cx="10" cy="5" r="5" fill="#578014" />
@@ -120,11 +131,11 @@
 						<div class="eventTime">
 							<div class="DayDigit"></div>
 							<div class="Day" style="color:#578014">
-								 <em>Mail - Lehrende</em>
+								 <em>Mail - Teachers</em>
 								<div class="MonthYear"></div>
 							</div>
 						</div>
-						<div class="eventTitle">Verweis auf Löschung</div>
+						<div class="eventTitle">Notification of deletion</div>
 					</div>
 					<div class="time2"></div>
 				</div>
@@ -142,13 +153,13 @@
       <div class="event1Bubble" style="width:180px">
         <div class="eventTime">
           <div class=Day  style="color:#578014">
-             <em>Nutzer - <span style="font-size:14px;color: #004165;">2 Monate</span></em>
+             <em>User - <span style="font-size:14px;color: #004165;">2 Months</span></em>
 
             <div class="MonthYear"></div>
 
           </div>
         </div>
-        <div class="eventTitle">Opt-out aus Löschung</div>
+        <div class="eventTitle">Opt-out from Deletion</div>
       </div>
         <svg height="18" width="20">
 					<line x1="0" y1="0" x2="20" y2="0" style="stroke:#578014;stroke-width:5" />
@@ -165,11 +176,11 @@
 			<div class="eventTime">
 				<div class="DayDigit"></div>
 				<div class="Day" style="color:#578014">
-					 <em>Mail - Lehrende</em>
+					 <em>Mail - Teachers</em>
 					<div class="MonthYear"></div>
 				</div>
 			</div>
-			<div class="eventTitle">Erinnerung</div>
+			<div class="eventTitle">Reminder</div>
 		</div>
 		<div class="time2"></div>
 	</div>
@@ -183,11 +194,11 @@
 				<div class="eventTime">
 					<div class="DayDigit"></div>
 					<div class="Day" style="color:#578014">
-						 <em>Vorsichtmaßnahme</em>
+						 <em>Precautionary Measure</em>
 						<div class="MonthYear"></div>
 					</div>
 				</div>
-				<div class="eventTitle">Kurse werden unsichtbar geschaltet</div>
+				<div class="eventTitle">Make courses invisible</div>
 			</div>
 			<svg height="20" width="20">
 				<circle cx="8" cy="5" r="5" fill="#578014" />
@@ -204,11 +215,11 @@
 				<div class="eventTime">
 					<div class="DayDigit"></div>
 					<div class="Day" style="color:#578014">
-						<em>Nutzer - <span style="font-size:14px;color: #004165;">1 Monat</span></em>
+						<em>User - <span style="font-size:14px;color: #004165;">1 Month</span></em>
 						<div class="MonthYear"></div>
 					</div>
 				</div>
-				<div class="eventTitle">Opt-out aus Löschung</div>
+				<div class="eventTitle">Opt-out from Deletion</div>
 			</div>
 			<div class="time2"></div>
 		</div>
@@ -223,11 +234,11 @@
 				<div class="eventTime">
 					<div class="DayDigit"></div>
 					<div class="Day" style="color:#578014">
-						 <em>Vorsichtmaßnahme</em>
+						 <em>Precautionary Measurement</em>
 						<div class="MonthYear"></div>
 					</div>
 				</div>
-				<div class="eventTitle">Erstellen von Backups</div>
+				<div class="eventTitle">Create Backups</div>
 			</div>
 			<div class="time"></div>
 			<svg height="20" width="20">
@@ -246,11 +257,11 @@
 				<div class="eventTime">
 					<div class="DayDigit"></div>
 					<div class="Day" style="color:#578014">
-						 <em>ENDLICH!!!!!!!!!!</em>
+						 <em>Finally!!!!!!!!!!</em>
 						<div class="MonthYear"></div>
 					</div>
 				</div>
-				<div class="eventTitle">Löschen von Kursen</div>
+				<div class="eventTitle">Deleting Courses</div>
 			</div>
 			<div class="time2"></div>
 		</div>
@@ -271,9 +282,7 @@
 	</section>
 
 <section>
-<section data-background="figures/over.gif">
-	<h2>And now?</h2>
-</section>
+
 
 <section>
 	<img alt="Witz Overengineering" width=80% src="figures/the_general_problem.png"></img>
@@ -284,86 +293,71 @@
 	<p>Tobias Reischmann - 2017</p>
 </section>
 
-<section data-background="figures/github_15.png" >
-	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-		<h2>Admin tool lifecycle</h2>
-		<p>Wir haben unser Bestes gegeben ein Grundgerüst zu bauen (<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>)</p>
-	</div>
-</section>
-</section>
-<section>
-	<section data-background="figures/code.png">
-		<h1>Software?</h1>
-		<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki">Doku</a>
-	</section>
-</section>
-<section>
+
 	<section>
 		<h1>Sub-plugins</h1>
-		<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki/Documentation-for-Developers"> Dokumentation</a>
+		<a href="https://github.com/learnweb/moodle-tool_lifecycle/wiki/Documentation-for-Developers"> Documentation</a>
 	</section>
 	<section>
-		<code>lifecycle<b style="color:#578014">trigger</b></code> &#x2192; Wann soll ein Kurs mit dem Prozess bearbeitet werden?<br>
-		<a href="https://github.com/learnweb/moodle-lifecycletrigger_dummy"> Repository für leeren Trigger</a><br>
-		<code>lifecycle<b style="color:#578014">step</b></code> &#x2192; Was soll in dem Prozess passieren?<br>
-		<a href="https://github.com/learnweb/moodle-lifecyclestep_dummy"> Repository für leeren Step</a><br>
+		<code>lifecycle<b style="color:#578014">trigger</b></code> &#x2192; Under shich conditions should a course be handeled?<br>
+		<a href="https://github.com/learnweb/moodle-lifecycletrigger_dummy"> Repo for empty template</a><br>
+		<code>lifecycle<b style="color:#578014">step</b></code> &#x2192; What should happen with the courses?<br>
+		<a href="https://github.com/learnweb/moodle-lifecyclestep_dummy"> Repo for empty Step</a><br>
 	</section>
 	<section>
-		<h3><code style="color:#578014">Trigger</code>- in der Standardinstallation</h3>
+		<h3><code style="color:#578014">Trigger</code>- always included</h3>
 		<ul>
-			<li> Kurskategorie </li>
-			<li> Bestimmtes Datum </li>
-			<li> Startzeitpunkt des Kurses <br>ist <em>xxx</em> Tage/Monate/... her </li>
+			<li> Coursecategory </li>
+			<li> Specific Date </li>
+			<li> Start of the Course <br>is <em>xxx</em> days/months/... ago </li>
 			<li> ... </li>
 		</ul>
 
 	</section>
 	<section>
-		<h3><code style="color:#578014">Steps</code> - in der Standardinstallation</h3>
+		<h3><code style="color:#578014">Steps</code> - always included</h3>
 		<ul>
-			<li> Backup erstellen </li>
-			<li> E-Mail an Lehrende</li>
-			<li> Kurs löschen </li>
-			<li> Kurs unsichtbar schalten </li>
+			<li> Create Backup </li>
+			<li> E-Mail for Teachers</li>
+			<li> Delete Courses </li>
+			<li> Make courses invisible </li>
 		</ul>
 	</section>
 </section>
 
 <section>
 	<section>
-		<h1>Nutzerinterface</h1>
-	</section>
-	<section >
-		<span>Komplexe Probleme haben komplexe User Interfaces...</span>
+		<h1>Userinterface</h1>
+		<img alt="UX Meme one does not simply improve UX" src="figures/UXMeme.jpg"></img>
 	</section>
 
 <section>
-<img alt="Beispiel Kurssicherungen" src="figures/settings_whole.png"></img>
+DEMO</section>
+<!-- <section>
+<img alt="Beispiel Kurssicherungen" src="figures/activeprocesses.png"></img>
+</section>
+<section>
+<img alt="Beispiel Kurssicherungen" src="figures/kurssicherungen2.png"></img>
 </section>
 <section>
 <img alt="Beispiel Workflows" src="figures/beispielworkflows.png"></img>
 </section>
 <section>
 <img alt="Beispiel eines Workflows" width=80% src="figures/beispiel1workflow.png"></img>
-</section>
-<section>
-<img alt="Beispiel Kurssicherungen" src="figures/kurssicherungen2.png"></img>
-</section>
-<section>
-<img alt="Beispiel Kurssicherungen" src="figures/activeprocesses.png"></img>
-</section>
+</section>-->
+
 </section>
 <section>
 	<section>
-		<h1>Beispiel - WWU</h1>
+		<h1>Example - WWU</h1>
 	</section>
 	<section >
 		<table>
 			<thead>
 				<tr>
-					<th>Kurse</th>
+					<th>Courses</th>
 					<td>~55.000</td>
-					<td><span style="color:#578014">~-60%</span></td>
+					<td><span style="color:#578014">~-40%</span></td>
 					<td>~22.000</td>
 				</tr>
 			</thead>
@@ -381,7 +375,7 @@
 					<td>6,1T (+2,4T)</td>
 				</tr>
 				<tr>
-				<th>Datenbankdump</th>
+				<th>DB-Dump</th>
 				<td>11,9 GB</td>
 				<td><span style="color:#ff0000">~-5%</span></td>
 				<td>11,3 GB</td>
@@ -390,14 +384,14 @@
 		</table>
 	</section>
 <section>
-	<h3>Anmerkungen eines Admins</h3>
+	<h3>Remarks from Me</h3>
 	<ul>
-		<li>Einsparnis hängt von eurem Workflow ab</li>
-		<li>Early Adoptors -> Kein Release Candidate</li>
-		<li>Support: </li>
+		<li>Advantages highly depends on your Workflow</li>
+		<li>Finally a release candidate</li>
+		<li>Communication: </li>
 			<ul>
-				<li>Anleitungen für Grades, Kursbackups</li>
-			  <li>Wir sind nicht ihr lokaler Cloud Dienst!</li>
+				<li>Instruction for creating backups</li>
+			  <li>We a re not a Filehosting service!</li>
 		</ul>
 	</ul>
 </section>
@@ -406,20 +400,26 @@
 	<section>
 	<h1>Outlook</h1>
 </section>
+<!--<section>
+	<p>
+		<img alt="Speicher ausgelastet Meme" style="width: 40%" src="figures/speichershort.jpeg"></img>
+	</p>
+</section>-->
 	<section>
 		<ul>
-			<li>Studierende benachrichtigen</li>
+			<li>Notify students (optionally)</li>
 			<li>Batch Processing - Admin Steps</li>
-			<li>Error Overview</li>
-			<li>Nutzerlöschung?</li>
+			<li>Deleting Users?</li>
 		</section>
 </section>
 				<!-- Example of nested vertical slides  				<section data-background-iframe="https://hakim.se" data-background-interactive>
  -->
 
  <section>
-	 <h3>Vielen Dank für eure Aufmerksamkeit, Fragen? </h3>
-<a href="mailto:nina.herrmann@uni-muenster.de">Sonst gerne als E-Mail</a> </section>
+	 <h3>thank you for your attention! Any questions? </h3>
+<a href="mailto:nina.herrmann@uni-muenster.de">Mail </a> or Github		<br>			<img alt="Picture of Nina Herrmann" style="width: 25%" src="figures/Nina.jpg"></img>
+
+</section>
 			</div>
 		</div>
 
